@@ -72,6 +72,10 @@ body {
     cursor: pointer;
 }
 
+.navigation form i:hover {
+    color: salmon;
+}
+
 .navigation input[type="text"] {
     border: 0px;
     padding: 10px 15px;
@@ -89,12 +93,14 @@ body {
 }
 
 .navigation ul li {
-    padding: 10px 15px;    
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
 }
 
 .navigation ul li.active {
     background-color: salmon;
     border-radius: 2px;  
+    border-bottom: 1px solid salmon;
 }
 
 
