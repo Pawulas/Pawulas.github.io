@@ -1,8 +1,100 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #2c2c2c;
+    font-weight: 300 ;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 1px;
+    min-width: 100%;
+    background-color: #fff;    
 }
 
-.h2 {
-    font-weight: 300 ;
+
+.first-letter {
+    color: salmon;
 }
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.content {
+    margin-left: 220px;
+}
+
+.content h2 {
+    font-weight: 300;
+    display: inline;
+}
+
+.content p {
+    display: inline;
+}
+
+.content-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.content-header p.current-date {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    margin-top: 0px;
+}
+
+.navigation {
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+
+.navigation h2 {
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.navigation form {
+    box-shadow: 0 0 2px #222;
+    border-radius: 2px;
+}
+
+.navigation form i {
+    cursor: pointer;
+}
+
+.navigation input[type="text"] {
+    border: 0px;
+    padding: 10px 15px;
+    display: inline;
+    width: 175px;
+}
+
+.navigation input[type="text"]:focus {
+    outline: none;
+}
+
+.navigation ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navigation ul li {
+    padding: 10px 15px;    
+}
+
+.navigation ul li.active {
+    background-color: salmon;
+    border-radius: 2px;  
+}
+
+
