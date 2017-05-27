@@ -97,6 +97,12 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
+.navigation ul li:hover {
+    background-color: #ff9a8e;
+    border-radius: 2px;  
+    border-bottom: 1px solid #ff9a8e;
+}
+
 .navigation ul li.active {
     background-color: salmon;
     border-radius: 2px;  
