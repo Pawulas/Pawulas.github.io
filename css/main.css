@@ -47,7 +47,7 @@ li {
   position: relative;
 }
 
-.page-content {
+.profile-section {
   position: relative;
 }
 
@@ -64,11 +64,12 @@ li {
 .profile-background {
   height: 100%;
   background-color: cadetblue;
-  position: relative;
 }
 
 .info {
   margin-left: 170px;
+  position: absolute;
+  bottom: -80px;
 }
 
 h1 {
@@ -80,4 +81,30 @@ h1 {
 p {
   margin-top: 0px;
   font-size: 14px;
+}
+
+.news {
+  margin-top: 100px;
+}
+
+.news h2 {
+  font-weight: 300;
+}
+
+.social {
+  position: absolute;
+  bottom: -70px;
+  margin-left: 530px;
+}
+
+.social ul li {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  padding-top: 18px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 40px;
+  vertical-align: middle;
+  box-shadow: 0 0 3px #222;
 }
